@@ -80,7 +80,7 @@ $(document).ready(function() {
 
    //Gestión de las imágenes de Flirck
   $("#button").click(function(){
-   console.log($("input").val());
+   //console.log($("input").val());
    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?&jsoncallback=?";
    $.getJSON(flickerAPI, {
      tags: $("input").val(),
